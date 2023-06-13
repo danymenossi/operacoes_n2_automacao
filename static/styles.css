@@ -1,0 +1,35 @@
+/* styles.css */
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.center-content h1 {
+    margin-bottom: 1em;
+}
+
+.center-content .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.center-content .header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.texto-centralizado {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

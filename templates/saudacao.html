@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automação N2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center-content">
+        <div class="header">
+            <img src="caminho/para/imagem.png" alt="Logo">
+            <h2>Título da Página</h2>
+        </div>
+        <h1 class="texto-centralizado">Buscar EC</h1>
+        <form action="{{ url_for('tela_principal.saudacao') }}" method="GET">
+            <label for="ec">Ec:</label>
+            <input type="text" id="ec" name="ec" required>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</body>
+</html>
